@@ -3,7 +3,7 @@ expect (attribute[:count]) .to eq(1)
 end
 expect (result)["AVOCADO"][:price]) .to eq(3.00)
 end
-expect
+expect (@avocado_result.keys) .to include("AVOCADO W/COUPON")
 end
 
 def checkout(cart, coupons)

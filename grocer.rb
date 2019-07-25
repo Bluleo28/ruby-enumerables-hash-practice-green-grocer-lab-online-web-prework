@@ -6,6 +6,4 @@ end
 expect (@avocado_result.keys) .to include("AVOCADO W/COUPON")
 end
 
-def checkout(cart, coupons)
-  # code here
 end

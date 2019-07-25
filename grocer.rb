@@ -8,3 +8,4 @@ end
 expect(@avocado_result["AVOCADO W/COUPON"][:price]) .to eq (2.50)
 end
 expect(@avocado_result["AVOCADO W/COUPON"][:count]).to eq(2)
+epect (@avocado_result["AVOCADO"][:price]) .to eq(3.00)
